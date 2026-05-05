@@ -1,0 +1,139 @@
+2026-05-05 23:57:42,224 INFO Created student account for username=newuser
+2026-05-05 23:57:42,226 WARNING Failed login for username=admin ip=127.0.0.1
+2026-05-05 23:57:42,226 INFO Successful login for username=newuser role=student
+2026-05-05 23:57:42,227 INFO Successful login for username=admin role=instructor
+2026-05-05 23:57:42,240 INFO Grade updated by instructor=admin for student=newuser grade=A
+2026-05-05 23:57:42,242 INFO Successful login for username=newuser role=student
+2026-05-05 23:57:42,244 WARNING Blocked grade access by username=newuser for requested_user=faisal
+2026-05-05 23:59:58,226 WARNING Blocked non-instructor access to /grades
+2026-05-05 23:59:58,238 INFO Created account for username=miniuser
+2026-05-05 23:59:58,239 INFO Successful login for username=miniuser
+2026-05-05 23:59:58,241 WARNING Blocked grade access by miniuser for faisal
+2026-05-05 23:59:58,242 INFO Successful login for username=admin
+2026-05-06 00:00:37,673 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-06 00:00:37,674 INFO [33mPress CTRL+C to quit[0m
+2026-05-06 00:00:43,605 INFO 127.0.0.1 - - [06/May/2026 00:00:43] "GET / HTTP/1.1" 200 -
+2026-05-06 00:00:44,944 INFO 127.0.0.1 - - [06/May/2026 00:00:44] "GET /create-account HTTP/1.1" 200 -
+2026-05-06 00:00:51,006 INFO 127.0.0.1 - - [06/May/2026 00:00:51] "POST /create-account HTTP/1.1" 200 -
+2026-05-06 00:00:53,460 INFO 127.0.0.1 - - [06/May/2026 00:00:53] "GET /create-account HTTP/1.1" 200 -
+2026-05-06 00:00:58,051 INFO Created account for username=student
+2026-05-06 00:00:58,052 INFO 127.0.0.1 - - [06/May/2026 00:00:58] "POST /create-account HTTP/1.1" 200 -
+2026-05-06 00:01:00,366 INFO 127.0.0.1 - - [06/May/2026 00:01:00] "GET /create-account HTTP/1.1" 200 -
+2026-05-06 00:01:04,246 INFO 127.0.0.1 - - [06/May/2026 00:01:04] "POST /create-account HTTP/1.1" 200 -
+2026-05-06 00:01:06,526 INFO 127.0.0.1 - - [06/May/2026 00:01:06] "GET /create-account HTTP/1.1" 200 -
+2026-05-06 00:01:07,226 INFO 127.0.0.1 - - [06/May/2026 00:01:07] "GET / HTTP/1.1" 200 -
+2026-05-06 00:01:12,446 INFO Successful login for username=student
+2026-05-06 00:01:12,446 INFO 127.0.0.1 - - [06/May/2026 00:01:12] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 00:01:12,451 INFO 127.0.0.1 - - [06/May/2026 00:01:12] "GET /view HTTP/1.1" 200 -
+2026-05-06 00:01:33,203 INFO Successful login for username=admin
+2026-05-06 00:01:33,203 INFO 127.0.0.1 - - [06/May/2026 00:01:33] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 00:01:33,206 INFO 127.0.0.1 - - [06/May/2026 00:01:33] "GET /grades HTTP/1.1" 200 -
+2026-05-06 00:01:39,867 INFO Instructor admin posted grade for student
+2026-05-06 00:01:39,868 INFO 127.0.0.1 - - [06/May/2026 00:01:39] "POST /grades HTTP/1.1" 200 -
+2026-05-06 00:01:40,930 INFO 127.0.0.1 - - [06/May/2026 00:01:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-06 00:01:40,933 INFO 127.0.0.1 - - [06/May/2026 00:01:40] "GET / HTTP/1.1" 200 -
+2026-05-06 00:01:45,345 INFO Successful login for username=student
+2026-05-06 00:01:45,345 INFO 127.0.0.1 - - [06/May/2026 00:01:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 00:01:45,349 INFO 127.0.0.1 - - [06/May/2026 00:01:45] "GET /view HTTP/1.1" 200 -
+2026-05-06 00:01:48,408 INFO 127.0.0.1 - - [06/May/2026 00:01:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-06 00:01:48,410 INFO 127.0.0.1 - - [06/May/2026 00:01:48] "GET / HTTP/1.1" 200 -
+2026-05-06 00:02:10,881 WARNING Failed login for username=student
+2026-05-06 00:02:10,881 INFO 127.0.0.1 - - [06/May/2026 00:02:10] "POST / HTTP/1.1" 200 -
+2026-05-06 00:02:11,812 INFO 127.0.0.1 - - [06/May/2026 00:02:11] "GET / HTTP/1.1" 200 -
+2026-05-06 00:02:13,128 WARNING Failed login for username=student
+2026-05-06 00:02:13,128 INFO 127.0.0.1 - - [06/May/2026 00:02:13] "POST / HTTP/1.1" 200 -
+2026-05-06 00:02:13,737 INFO 127.0.0.1 - - [06/May/2026 00:02:13] "GET / HTTP/1.1" 200 -
+2026-05-06 00:02:15,308 WARNING Failed login for username=student
+2026-05-06 00:02:15,308 INFO 127.0.0.1 - - [06/May/2026 00:02:15] "POST / HTTP/1.1" 200 -
+2026-05-06 00:02:17,077 INFO 127.0.0.1 - - [06/May/2026 00:02:17] "GET / HTTP/1.1" 200 -
+2026-05-06 00:02:18,467 WARNING Failed login for username=student
+2026-05-06 00:02:18,467 INFO 127.0.0.1 - - [06/May/2026 00:02:18] "POST / HTTP/1.1" 200 -
+2026-05-06 00:02:19,231 INFO 127.0.0.1 - - [06/May/2026 00:02:19] "GET / HTTP/1.1" 200 -
+2026-05-06 00:02:20,204 WARNING Failed login for username=student
+2026-05-06 00:02:20,205 INFO 127.0.0.1 - - [06/May/2026 00:02:20] "POST / HTTP/1.1" 200 -
+2026-05-06 00:02:21,072 INFO 127.0.0.1 - - [06/May/2026 00:02:21] "GET / HTTP/1.1" 200 -
+2026-05-06 00:02:33,840 WARNING Too many failed login attempts for username=student
+2026-05-06 00:02:33,840 INFO 127.0.0.1 - - [06/May/2026 00:02:33] "POST / HTTP/1.1" 200 -
+2026-05-06 00:02:35,321 INFO 127.0.0.1 - - [06/May/2026 00:02:35] "GET / HTTP/1.1" 200 -
+2026-05-06 00:02:54,891 WARNING Failed login for username=admin
+2026-05-06 00:02:54,891 WARNING Failed login for username=admin
+2026-05-06 00:02:54,892 WARNING Failed login for username=admin
+2026-05-06 00:08:17,072 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-06 00:08:17,072 INFO [33mPress CTRL+C to quit[0m
+2026-05-06 00:08:18,950 INFO 127.0.0.1 - - [06/May/2026 00:08:18] "GET / HTTP/1.1" 200 -
+2026-05-06 00:08:28,223 INFO 127.0.0.1 - - [06/May/2026 00:08:28] "GET /create-account HTTP/1.1" 200 -
+2026-05-06 00:08:32,376 INFO 127.0.0.1 - - [06/May/2026 00:08:32] "POST /create-account HTTP/1.1" 200 -
+2026-05-06 00:08:34,614 INFO 127.0.0.1 - - [06/May/2026 00:08:34] "GET /create-account HTTP/1.1" 200 -
+2026-05-06 00:08:36,730 INFO 127.0.0.1 - - [06/May/2026 00:08:36] "POST /create-account HTTP/1.1" 200 -
+2026-05-06 00:08:39,414 INFO 127.0.0.1 - - [06/May/2026 00:08:39] "GET /create-account HTTP/1.1" 200 -
+2026-05-06 00:09:19,390 INFO 127.0.0.1 - - [06/May/2026 00:09:19] "GET / HTTP/1.1" 200 -
+2026-05-06 00:09:23,760 INFO Successful login for username=student
+2026-05-06 00:09:23,761 INFO 127.0.0.1 - - [06/May/2026 00:09:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 00:09:23,765 INFO 127.0.0.1 - - [06/May/2026 00:09:23] "GET /view HTTP/1.1" 200 -
+2026-05-06 00:09:30,064 INFO 127.0.0.1 - - [06/May/2026 00:09:30] "GET / HTTP/1.1" 200 -
+2026-05-06 00:13:34,378 INFO Successful login for username=admin
+2026-05-06 00:13:34,379 INFO 127.0.0.1 - - [06/May/2026 00:13:34] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 00:13:34,382 INFO 127.0.0.1 - - [06/May/2026 00:13:34] "GET /grades HTTP/1.1" 200 -
+2026-05-06 00:13:43,697 INFO Instructor admin posted grade for student
+2026-05-06 00:13:43,698 INFO 127.0.0.1 - - [06/May/2026 00:13:43] "POST /grades HTTP/1.1" 200 -
+2026-05-06 00:16:08,549 INFO 127.0.0.1 - - [06/May/2026 00:16:08] "GET /grades HTTP/1.1" 200 -
+2026-05-06 00:16:09,538 INFO 127.0.0.1 - - [06/May/2026 00:16:09] "GET / HTTP/1.1" 200 -
+2026-05-06 00:16:16,053 INFO Successful login for username=student
+2026-05-06 00:16:16,054 INFO 127.0.0.1 - - [06/May/2026 00:16:16] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 00:16:16,058 INFO 127.0.0.1 - - [06/May/2026 00:16:16] "GET /view HTTP/1.1" 200 -
+2026-05-06 00:16:18,821 WARNING Blocked non-instructor access to /grades
+2026-05-06 00:16:18,822 INFO 127.0.0.1 - - [06/May/2026 00:16:18] "[31m[1mGET /grades HTTP/1.1[0m" 403 -
+2026-05-06 00:16:31,583 INFO Created account for username=acctest
+2026-05-06 00:16:31,585 INFO Successful login for username=acctest
+2026-05-06 00:16:31,599 INFO Updated password for username=acctest
+2026-05-06 00:16:31,600 INFO Successful login for username=acctest
+2026-05-06 00:16:31,601 INFO Successful login for username=admin
+2026-05-06 00:16:31,610 INFO Instructor admin posted grade for acctest
+2026-05-06 00:17:23,943 INFO 127.0.0.1 - - [06/May/2026 00:17:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-06 00:17:23,947 INFO 127.0.0.1 - - [06/May/2026 00:17:23] "GET / HTTP/1.1" 200 -
+2026-05-06 00:23:03,843 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-06 00:23:03,844 INFO [33mPress CTRL+C to quit[0m
+2026-05-06 00:23:06,828 WARNING Failed login for username=student
+2026-05-06 00:23:06,829 INFO 127.0.0.1 - - [06/May/2026 00:23:06] "POST / HTTP/1.1" 200 -
+2026-05-06 00:23:09,125 INFO 127.0.0.1 - - [06/May/2026 00:23:09] "[32mGET /view HTTP/1.1[0m" 302 -
+2026-05-06 00:23:09,129 INFO 127.0.0.1 - - [06/May/2026 00:23:09] "GET / HTTP/1.1" 200 -
+2026-05-06 00:23:14,023 WARNING Failed login for username=student
+2026-05-06 00:23:14,024 INFO 127.0.0.1 - - [06/May/2026 00:23:14] "POST / HTTP/1.1" 200 -
+2026-05-06 00:23:16,180 INFO 127.0.0.1 - - [06/May/2026 00:23:16] "GET / HTTP/1.1" 200 -
+2026-05-06 00:23:19,791 INFO Successful login for username=student
+2026-05-06 00:23:19,792 INFO 127.0.0.1 - - [06/May/2026 00:23:19] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 00:23:19,796 INFO 127.0.0.1 - - [06/May/2026 00:23:19] "GET /view HTTP/1.1" 200 -
+2026-05-06 00:23:22,802 INFO 127.0.0.1 - - [06/May/2026 00:23:22] "GET /update-account HTTP/1.1" 200 -
+2026-05-06 00:23:25,833 INFO 127.0.0.1 - - [06/May/2026 00:23:25] "POST /update-account HTTP/1.1" 200 -
+2026-05-06 00:23:26,916 INFO 127.0.0.1 - - [06/May/2026 00:23:26] "GET /update-account HTTP/1.1" 200 -
+2026-05-06 00:23:30,064 INFO Updated password for username=student
+2026-05-06 00:23:30,065 INFO 127.0.0.1 - - [06/May/2026 00:23:30] "POST /update-account HTTP/1.1" 200 -
+2026-05-06 00:23:32,658 INFO 127.0.0.1 - - [06/May/2026 00:23:32] "GET /update-account HTTP/1.1" 200 -
+2026-05-06 00:23:33,707 INFO 127.0.0.1 - - [06/May/2026 00:23:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-06 00:23:33,709 INFO 127.0.0.1 - - [06/May/2026 00:23:33] "GET / HTTP/1.1" 200 -
+2026-05-06 00:23:42,905 INFO Successful login for username=student
+2026-05-06 00:23:42,906 INFO 127.0.0.1 - - [06/May/2026 00:23:42] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 00:23:42,910 INFO 127.0.0.1 - - [06/May/2026 00:23:42] "GET /view HTTP/1.1" 200 -
+2026-05-06 00:24:10,565 WARNING Failed login for username=student OR 1=1
+2026-05-06 00:24:10,565 INFO 127.0.0.1 - - [06/May/2026 00:24:10] "POST / HTTP/1.1" 200 -
+2026-05-06 00:24:13,174 INFO 127.0.0.1 - - [06/May/2026 00:24:13] "GET / HTTP/1.1" 200 -
+2026-05-06 00:24:14,932 INFO 127.0.0.1 - - [06/May/2026 00:24:14] "POST / HTTP/1.1" 200 -
+2026-05-06 00:24:16,198 INFO 127.0.0.1 - - [06/May/2026 00:24:16] "GET / HTTP/1.1" 200 -
+2026-05-06 00:24:36,843 WARNING Blocked non-instructor access to /grades
+2026-05-06 00:24:36,843 INFO 127.0.0.1 - - [06/May/2026 00:24:36] "[31m[1mGET /grades HTTP/1.1[0m" 403 -
+2026-05-06 00:24:55,798 WARNING Failed login for username=OR 1=1 --
+2026-05-06 00:24:55,798 INFO 127.0.0.1 - - [06/May/2026 00:24:55] "POST / HTTP/1.1" 200 -
+2026-05-06 00:24:57,889 INFO 127.0.0.1 - - [06/May/2026 00:24:57] "GET / HTTP/1.1" 200 -
+2026-05-06 00:25:02,879 INFO 127.0.0.1 - - [06/May/2026 00:25:02] "GET /create-account HTTP/1.1" 200 -
+2026-05-06 00:25:11,007 INFO 127.0.0.1 - - [06/May/2026 00:25:11] "POST /create-account HTTP/1.1" 200 -
+2026-05-06 00:25:11,836 INFO 127.0.0.1 - - [06/May/2026 00:25:11] "GET /create-account HTTP/1.1" 200 -
+2026-05-06 00:25:12,962 INFO Created account for username=test' OR '1'='1
+2026-05-06 00:25:12,962 INFO 127.0.0.1 - - [06/May/2026 00:25:12] "POST /create-account HTTP/1.1" 200 -
+2026-05-06 00:25:14,625 INFO 127.0.0.1 - - [06/May/2026 00:25:14] "GET /create-account HTTP/1.1" 200 -
+2026-05-06 00:25:17,011 INFO 127.0.0.1 - - [06/May/2026 00:25:17] "GET / HTTP/1.1" 200 -
+2026-05-06 00:25:18,661 INFO Successful login for username=test' OR '1'='1
+2026-05-06 00:25:18,662 INFO 127.0.0.1 - - [06/May/2026 00:25:18] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 00:25:18,665 INFO 127.0.0.1 - - [06/May/2026 00:25:18] "GET /view HTTP/1.1" 200 -
