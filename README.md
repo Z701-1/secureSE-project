@@ -34,3 +34,4 @@ After login, the system checks the user role:
 
 - `app.py` - main application file
 - `database.db` - project database
+- `app.log` - log files that demonstrate testing
